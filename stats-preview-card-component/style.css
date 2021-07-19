@@ -151,6 +151,8 @@ p {
 
     .card-img {
         order: 2;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 15px;
     }
 
     .mobile-img {
@@ -160,6 +162,8 @@ p {
     .desktop-img {
         display: block;
         opacity: 0.40;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
     }
 
     .stats-section {
