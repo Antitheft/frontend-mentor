@@ -1,4 +1,19 @@
-# frontend-mentor
-My first repo
+# Frontend Mentor Challenges
 
-This is a test commit.
+This is the main repository to solutions from the Frontend Mentor challenges.
+
+## Table of contents
+
+- [Stats Preview Card Component](#stats-preview-card-component)
+- [Author](#author)
+
+## Stats Preview Card Component
+
+- [Live Preview](https://antitheft.github.io/frontend-mentor/stats-preview-card-component/index.html)
+- [View Code](https://github.com/Antitheft/frontend-mentor/tree/main/stats-preview-card-component)
+
+## Author
+
+- Website - [Add your name here](https://www.your-site.com)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@yourusername](https://www.twitter.com/yourusername)
