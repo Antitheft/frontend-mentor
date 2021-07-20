@@ -125,7 +125,7 @@ p {
 }
 
 /* desktop styles */
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1110px) {
     .card {
         width: 1100px;
         flex-direction: row;
