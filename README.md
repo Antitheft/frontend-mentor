@@ -12,6 +12,11 @@ This is the main repository to solutions from the Frontend Mentor challenges.
 - [Live Preview](https://antitheft.github.io/frontend-mentor/stats-preview-card-component/index.html)
 - [View Code](https://github.com/Antitheft/frontend-mentor/tree/main/stats-preview-card-component)
 
+## 3 Column Preview Card Component
+
+- [Live Preview](https://antitheft.github.io/frontend-mentor/3-column-preview-card-component/index.html)
+- [View Code](https://github.com/Antitheft/frontend-mentor/tree/main/3-column-preview-card-component)
+
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
