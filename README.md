@@ -1,11 +1,11 @@
 # Frontend Mentor Challenges
 
 This is the main repository to solutions from the Frontend Mentor challenges.
-
+<!-- 
 ## Table of contents
 
 - [Stats Preview Card Component](#stats-preview-card-component)
-- [Author](#author)
+- [Author](#author) -->
 
 ## Stats Preview Card Component
 
