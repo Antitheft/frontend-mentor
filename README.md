@@ -17,8 +17,10 @@ This is the main repository to solutions from the Frontend Mentor challenges.
 - [Live Preview](https://antitheft.github.io/frontend-mentor/3-column-preview-card-component/index.html)
 - [View Code](https://github.com/Antitheft/frontend-mentor/tree/main/3-column-preview-card-component)
 
-## Author
+## Profile Card Component
 
-- Website - [Add your name here](https://www.your-site.com)
+- [Live Preview](https://antitheft.github.io/frontend-mentor/profile-card-component/index.html)
+- [View Code](https://github.com/Antitheft/frontend-mentor/tree/main/profile-card-component)
+
+## Author
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
