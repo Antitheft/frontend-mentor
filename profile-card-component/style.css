@@ -1,0 +1,117 @@
+:root {
+    --ff-kumbh-sans: 'Kumbh Sans', sans-serif;
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-blue: hsl(229, 23%, 23%);
+    --dark-gray-blue:  hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+/*reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* base styles */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-cyan);
+    font-family: var(--ff-kumbh-sans);
+    color: var(--very-dark-blue);
+    background-image: url("./images/bg-pattern-top.svg"),
+    url("./images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 45vh, left 50vw top 45vh;
+}
+
+.card {
+    max-width: 350px;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-bg img {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.card-avatar {
+    position: relative;
+    display: inline;
+    top: -3.5em;
+    margin-bottom: -2em;
+    border: 5px solid white;
+    border-radius: 50px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 1.1rem;
+    display: inline;
+}
+
+#age {
+    font-size: 1.1rem;
+    color: var(--dark-gray-blue);
+    margin-left: 0.5em;
+}
+
+.location {
+    margin: 1em 3em 2em;
+    color: var(--dark-gray);
+    font-size: 0.95rem;
+}
+
+.card-stats {
+    display: flex;
+    justify-content: space-around;
+    width: 87%;
+    padding: 1.4em;
+    border-top: 1px solid lightgray;
+    text-align: center;
+}
+
+.stat {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+h2 {
+    margin-top: 0.5em;
+    font-size: 0.8rem;
+    color: var(--dark-gray);
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 0.8rem;
+}
