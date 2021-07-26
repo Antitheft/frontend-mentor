@@ -1,0 +1,108 @@
+:root {
+    --Very-dark-blue: hsl(238, 29%, 16%);
+    --Soft-red: hsl(14, 88%, 65%);
+    --Soft-violet: hsl(273, 75%, 66%);
+    --Soft-blue: hsl(240, 73%, 65%);
+    --Very-dark-grayish-blue: hsl(237, 12%, 33%);
+    --Dark-grayish-blue: hsl(240, 6%, 50%);
+    --Light-grayish-blue: hsl(240, 5%, 91%);
+    --ff-kumbh-sans: 'Kumbh Sans', sans-serif;
+}
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(var(--Soft-violet), var(--Soft-blue));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: var(--ff-kumbh-sans);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.card {
+    background: white;
+    border-radius: 25px;
+    width: 325px;
+    padding: 0.5rem;
+    
+}
+
+.card-img {
+    position: relative;
+}
+
+#card-illustration {
+    position: absolute;
+    top: -6.6rem;
+    left: 1rem;
+}
+
+#card-bg {
+    position: relative;
+    top: 0;
+    left: 3rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 0.90rem;
+    font-weight: 400;
+    margin-right: 0.5rem;
+}
+
+.accordion-item-header.active h2 {
+    font-weight: 700;
+}
+
+.accordion {
+    font-weight: 400;
+    padding: 1rem;
+}
+
+.accordion-item {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.accordion-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.accordion-item-header::after {
+    content: url('./images/icon-arrow-down.svg');
+}
+
+.accordion-item-header.active::after {
+    content: url('./images/icon-arrow-down.svg');
+    transform: scaleY(-1);
+}
+
+.accordion-item-body {
+    display: none;
+    font-size: 0.80rem;
+    line-height: 1.2rem;
+}
+
+.accordion-item-header.active + .accordion-item-body {
+    display: block;
+}
+
+/* .attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+} */
