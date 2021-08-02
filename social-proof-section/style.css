@@ -1,0 +1,61 @@
+:root {
+    --ff-spartan: 'Spartan', sans-serif;
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+/* base styles */
+html, body {
+    
+}
+
+body {
+    font-size: 15px;
+    font-family: var(--ff-spartan);
+    background: var(--White);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    padding: 0.6rem;
+}
+
+h1 {
+    color: var(--Very-Dark-Magenta);
+    font-size: 2rem;
+}
+
+.header-info {
+    color: var(--Dark-Grayish-Magenta);
+}
+
+.review-section {
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.review-card {
+    background: var(--Light-Grayish-Magenta);
+    color: var(--Very-Dark-Magenta);
+    text-align: center;
+    width: 21rem;
+    border-radius: 25px;
+}
+
+.review-header {
+    font-size: 1rem;
+}
+
+/* mobile styles */
+
+
+/* desktop styles */
+@media screen and (min-width: 1200px) {
+    
+}
