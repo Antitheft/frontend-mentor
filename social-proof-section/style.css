@@ -129,7 +129,7 @@ h1 {
 .attribution {
     font-size: 11px;
     text-align: center;
-    position: absolute;
+    position: relative;
     left: 0;
     right: 0;
     bottom: 10px;
@@ -222,5 +222,9 @@ h1 {
     }
     .testimonial-card:nth-child(3) {
         margin-top: 3rem;
+    }
+
+    .attribution {
+        position: absolute;
     }
 }
