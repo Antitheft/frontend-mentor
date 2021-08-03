@@ -211,7 +211,7 @@ h1 {
 
     .testimonial-section {
         display: flex;
-        margin-top: -20rem;
+        margin-top: -10rem;
     }
 
     .testimonial-card:nth-child(1) {
