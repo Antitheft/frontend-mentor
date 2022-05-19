@@ -33,4 +33,5 @@ This is the main repository to solutions from the Frontend Mentor challenges.
 - [View Code](https://github.com/Antitheft/frontend-mentor/tree/main/faq-accordion-card)
 
 ## Author
+- GitHub - [@Antitheft](https://github.com/Antitheft)
 - Frontend Mentor - [@Antitheft](https://www.frontendmentor.io/profile/antitheft)
