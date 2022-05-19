@@ -22,5 +22,15 @@ This is the main repository to solutions from the Frontend Mentor challenges.
 - [Live Preview](https://antitheft.github.io/frontend-mentor/profile-card-component/index.html)
 - [View Code](https://github.com/Antitheft/frontend-mentor/tree/main/profile-card-component)
 
+## Social Proof Section
+
+- [Live Preview](https://anthonyrodriguez.dev/frontend-mentor/social-proof-section/index.html)
+- [View Code](https://github.com/Antitheft/frontend-mentor/tree/main/social-proof-section)
+
+## FAQ Accordion Card
+
+- [Live Preview](https://anthonyrodriguez.dev/frontend-mentor/faq-accordion-card/index.html)
+- [View Code](https://github.com/Antitheft/frontend-mentor/tree/main/faq-accordion-card)
+
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Antitheft](https://www.frontendmentor.io/profile/antitheft)
